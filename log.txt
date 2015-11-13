@@ -1,0 +1,63 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building web_auth 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ web_auth ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.3:compile (default-compile) @ web_auth ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 20 source files to C:\joan\feina\schibsted\web_project\target\classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /C:/joan/feina/schibsted/web_project/src/main/java/sample/webauth/servlet/ServletInitializer.java:[80,17] cannot find symbol
+  symbol:   variable JsonConfiguration
+  location: class sample.webauth.servlet.ServletInitializer
+[ERROR] /C:/joan/feina/schibsted/web_project/src/main/java/sample/webauth/servlet/ServletInitializer.java:[85,33] cannot find symbol
+  symbol:   variable JsonConfiguration
+  location: class sample.webauth.servlet.ServletInitializer
+[ERROR] /C:/joan/feina/schibsted/web_project/src/main/java/sample/webauth/servlet/ServletInitializer.java:[92,39] cannot find symbol
+  symbol:   variable context
+  location: class sample.webauth.servlet.ServletInitializer
+[ERROR] /C:/joan/feina/schibsted/web_project/src/main/java/sample/webauth/servlet/ServletInitializer.java:[93,17] cannot find symbol
+  symbol:   variable JsonConfiguration
+  location: class sample.webauth.servlet.ServletInitializer
+[ERROR] /C:/joan/feina/schibsted/web_project/src/main/java/sample/webauth/servlet/ServletInitializer.java:[96,33] cannot find symbol
+  symbol:   variable JsonConfiguration
+  location: class sample.webauth.servlet.ServletInitializer
+[INFO] 5 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.141 s
+[INFO] Finished at: 2015-11-12T23:21:32+01:00
+[INFO] Final Memory: 11M/30M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.3:compile (default-compile) on project web_auth: Compilation failure: Compilation failure:
+[ERROR] /C:/joan/feina/schibsted/web_project/src/main/java/sample/webauth/servlet/ServletInitializer.java:[80,17] cannot find symbol
+[ERROR] symbol:   variable JsonConfiguration
+[ERROR] location: class sample.webauth.servlet.ServletInitializer
+[ERROR] /C:/joan/feina/schibsted/web_project/src/main/java/sample/webauth/servlet/ServletInitializer.java:[85,33] cannot find symbol
+[ERROR] symbol:   variable JsonConfiguration
+[ERROR] location: class sample.webauth.servlet.ServletInitializer
+[ERROR] /C:/joan/feina/schibsted/web_project/src/main/java/sample/webauth/servlet/ServletInitializer.java:[92,39] cannot find symbol
+[ERROR] symbol:   variable context
+[ERROR] location: class sample.webauth.servlet.ServletInitializer
+[ERROR] /C:/joan/feina/schibsted/web_project/src/main/java/sample/webauth/servlet/ServletInitializer.java:[93,17] cannot find symbol
+[ERROR] symbol:   variable JsonConfiguration
+[ERROR] location: class sample.webauth.servlet.ServletInitializer
+[ERROR] /C:/joan/feina/schibsted/web_project/src/main/java/sample/webauth/servlet/ServletInitializer.java:[96,33] cannot find symbol
+[ERROR] symbol:   variable JsonConfiguration
+[ERROR] location: class sample.webauth.servlet.ServletInitializer
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

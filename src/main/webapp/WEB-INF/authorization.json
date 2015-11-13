@@ -1,0 +1,5 @@
+[
+	{"path": "/private/pag1.jsp", "roles": ["PAG_1"]},
+	{"path": "/private/pag2.jsp", "roles": ["PAG_2"]},
+	{"path": "/private/pag3.jsp", "roles": ["PAG_3"]}
+]
